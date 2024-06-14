@@ -1,8 +1,11 @@
 import {default as Country} from './item';
 
-const List = () => {
+const List = (counties) => {
     return (
         <div className=" flex flex-wrap mb-[200px]">
+            {/* {
+                counties.map( country => <Country info = {country} />)
+            } */}
             <Country />
             <Country />
             <Country />
